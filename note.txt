@@ -1,0 +1,13 @@
+create database contact_management;
+create table contacts(
+phone_no bigint primary key,
+name varchar(50),
+email varchar(50) unique
+);
+1-Explanation: This script creates a MySQL database named contact_management and a table named contacts within it. 
+The contacts table includes columns for phone_no (as primary key), name, and email.
+2-Steps to Set Up Database:
+Open MySQL Workbench.
+Copy and paste the provided SQL script into a new query tab.
+Execute the script to create the database and table structure.
+3-Note:It is necessary to deploy a database for using this application.
